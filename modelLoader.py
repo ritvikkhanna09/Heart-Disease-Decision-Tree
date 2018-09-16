@@ -4,6 +4,7 @@
 # In[23]:
 
 
+
 from sklearn.externals import joblib
 import pandas as pd
 
@@ -33,7 +34,7 @@ print("Predicted label :::: ", result)
 # In[34]:
 
 
-f= open("prediction/predicted_label.txt","w+")
+f= open("predicted.txt","w+")
 f.write(str(int(result[0])))
 f.close()
 
