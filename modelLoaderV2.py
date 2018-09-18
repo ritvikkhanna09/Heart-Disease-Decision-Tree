@@ -8,6 +8,5 @@ def ValuePredictor(to_predict_list):
     result = loaded_model.predict(to_predict)
     return result[0]
 
-example_list=[57,0,1,130,236,0,0,174,0,0,1,1,2]
-
-print(ValuePredictor(example_list))
+#example_list=[54,1,0,140,239,0,1,160,0,1.2,2,0,2]
+#print(ValuePredictor(example_list))
